@@ -1,10 +1,10 @@
-- live en servidor: https://coderrfolio.000webhostapp.com/
+- Live en servidor: https://coderrfolio.000webhostapp.com/
 .
-- live en github pages: https://cristiandjr.github.io/coderfolio-pf/
+- Live en github pages: https://cristiandjr.github.io/coderfolio-pf/
 .
-- code proyecto final: https://github.com/cristiandjr/coderfolio-pf
+- Code proyecto final: https://github.com/cristiandjr/coderfolio-pf
 .
-- wireframe: https://whimsical.com/coderfolio-copy-E6x18QjAe4kRJjH6mbD8mf
+- Wireframe: https://whimsical.com/coderfolio-copy-E6x18QjAe4kRJjH6mbD8mf
 
 # Coder Folio PF
 - Se mejoro los text
@@ -12,7 +12,6 @@
 - Se agrega favicon
 - Se agregan icon nuevos en Skills
 - Se subio a un servidor
-
 
 # Coder Folio v3
 - SASS
