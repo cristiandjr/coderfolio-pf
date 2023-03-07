@@ -1,6 +1,8 @@
-- live: 
+- live en servidor: https://coderrfolio.000webhostapp.com/
 .
-- code proyecto final:
+- live en github pages: https://cristiandjr.github.io/coderfolio-pf/
+.
+- code proyecto final: https://github.com/cristiandjr/coderfolio-pf
 .
 - wireframe: https://whimsical.com/coderfolio-copy-E6x18QjAe4kRJjH6mbD8mf
 
