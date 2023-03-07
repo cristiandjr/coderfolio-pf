@@ -1,0 +1,16 @@
+// MQ
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+// GRID
+@mixin grid-columns($columns, $size) {
+    grid-template-columns: repeat($columns, $size);
+}

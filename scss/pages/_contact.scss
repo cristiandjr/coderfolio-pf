@@ -1,0 +1,99 @@
+.contact {
+  width: 100%;
+  margin-top: 10px;
+
+  .contact__container {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    background-color: $bg-principal;
+
+    .contact__heading {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+      color: $txt-principal;
+    } // contact__heading
+
+    .contact__heading--h2 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      text-align: left;
+      color: $txt-principal;
+    } // contact__heading--h2
+
+    .contact__info {
+      display: flex;
+      flex-direction: column;
+
+      .contact__cards {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .contact__card {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid $txt-secundary;
+          border-radius: 5px;
+
+          .contact__networks {
+            font-size: 30px;
+          }
+
+          .contact__phone {
+            font-size: 20px;
+            color: $txt-secundary;
+          }
+          .contact__mail {
+            font-size: 20px;
+            color: $txt-secundary;
+          }
+        }
+      } // contact__cards
+    } // contact__info
+    @include desktop {
+      .contact__info {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+      }
+    }
+
+    .contact__forms {
+      width: 100%;
+
+      .contact__form {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $txt-secundary;
+        border-radius: 5px;
+
+        .contact__field {
+          margin-top: 10px;
+        }
+
+        .contact__input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 18px;
+          outline: none;
+        }
+        .contact__input--button {
+          width: 100%;
+          @extend %btn;
+        }
+      }
+    } // contact__forms
+  } // contact__container
+  @include tablet {
+    .contact__container {
+      padding: 20px;
+      width: 90%;
+      margin: 0 auto;
+      border-radius: 5px 5px 0px 0px;
+    }
+  }
+} // contact
